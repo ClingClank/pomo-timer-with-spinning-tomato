@@ -12,6 +12,8 @@
 }
 
 .credits {
+    display: flex;
+    gap: 0.25rem;
     position: fixed;
     left: 0;
     top: 0;

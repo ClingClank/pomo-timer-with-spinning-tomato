@@ -43,10 +43,10 @@ const App = () => {
         setOpenSetting={setOpenSetting}
       />
 
-      <div className="credits">
+      <span className="credits">
         <p>tomato model by Aparicio Silva 3D</p>
-        <a href="https://sketchfab.com/3d-models/tomato-game-ready-asset-fda1fbe840c344968523a1cbc7395839">link to model on sketchfab</a>
-      </div>
+        <a href="https://sketchfab.com/3d-models/tomato-game-ready-asset-fda1fbe840c344968523a1cbc7395839">(sketchfab link)</a>
+      </span>
     </div>
   )
 }
