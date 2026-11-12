@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import "./Timer.css";
 import SpinningTomato from "../SpinningTomato/SpinningTomato";
+import settingIcon from "../../assets/settings.svg"
 
 const Timer = ({
     pomodoro,
@@ -130,7 +131,7 @@ const Timer = ({
                     aria-label="Open settings"
                     onClick={() => setOpenSetting(!openSetting)}
                 >
-                    <img src="src/assets/setting.png" alt="" />
+                    <img src={settingIcon} alt="setting-icon" />
                 </button>
 
                 <button
