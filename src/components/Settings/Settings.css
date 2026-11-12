@@ -1,0 +1,95 @@
+.settings-backdrop {
+    position: fixed;
+    inset: 0;
+    z-index: 100;
+    display: grid;
+    place-items: center;
+    padding: 1rem;
+    backdrop-filter: blur(10px);
+}
+
+.settings {
+    --settings-red: #c4514b;
+    --settings-dark-red: #9f3f3a;
+    --settings-pale-red: #fff5f4;
+
+    box-sizing: border-box;
+    width: min(100%, 24rem);
+    padding: 1.5rem;
+    border: 1px solid #f0d7d5;
+    border-radius: 1.25rem;
+    background: #fff;
+    box-shadow: 0 1.25rem 3.5rem rgb(40 20 20 / 22%);
+    color: var(--settings-red);
+}
+
+.settings-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding-bottom: 10px;
+}
+
+.settings-header h2 {
+    margin: 0;
+    color: var(--settings-red);
+    font-size: 1.5rem;
+    font-weight: 750;
+}
+
+.three-timers {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.timer-setting {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 0.75rem 0.875rem;
+    border: 1px solid #f2dfdd;
+    border-radius: 0.75rem;
+    background: #fffafa;
+}
+
+.timer-setting label {
+    color: var(--settings-red);
+    font-size: 1rem;
+    font-weight: 650;
+}
+
+.timer-setting input {
+    box-sizing: border-box;
+    width: 5rem;
+    min-height: 2.5rem;
+    padding: 0.4rem 0.5rem;
+    border: 1px solid #e7b9b5;
+    border-radius: 0.5rem;
+    outline: none;
+    background: #fff;
+    color: var(--settings-dark-red);
+    font: inherit;
+    font-weight: 700;
+    text-align: left;
+}
+
+.settings-done {
+    width: 100%;
+    min-height: 2.75rem;
+    margin-top: 1.25rem;
+    border: 0;
+    border-radius: 0.75rem;
+    background: var(--settings-red);
+    box-shadow: 0 4px 0 var(--settings-dark-red);
+    color: #fff;
+    cursor: pointer;
+    font: inherit;
+    font-weight: 750;
+}
+
+.settings-done:hover {
+    background: #b84943;
+}

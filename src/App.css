@@ -1,0 +1,23 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+}
+
+.timer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.credits {
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 10px;
+}
+
+.credits p, a {
+    color: rgb(120, 120, 120);
+}
