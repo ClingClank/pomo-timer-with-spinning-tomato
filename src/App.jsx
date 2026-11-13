@@ -13,8 +13,6 @@ const App = () => {
   const [autoBreak, setAutoBreak] = useState(false);
   const [autoPomo, setAutoPomo] = useState(false);
 
-  console.log(openSetting);
-
   return (
     <div className='app'>
 

@@ -1,9 +1,9 @@
 {
-  "name": "pomodro-app",
+  "name": "pomo-timer-with-spinning-tomato",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://clingclank.github.io/pomodoro-app",
+  "homepage": "https://clingclank.github.io/pomo-timer-with-spinning-tomato",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
